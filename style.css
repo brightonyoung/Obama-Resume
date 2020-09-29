@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 250px 150px 250px 300px 200px 300px;
+}
+
+.portrait-container {
+    display: grid;
+    grid-row: 1 / 2;
+}
+
+.portrait {
+    display: grid;
+    width: 200px;
+    margin: auto;
+    box-shadow: -18px 19px 0px -7px white, -19px 19px 0px #9c9c9c;
+}
+
+.name {
+    display: grid;
+    font-family: Roboto Mono;
+    color: #240A5B;
+    font-size: 40px;
+    grid-column-start: 2;
+    letter-spacing: 5px;
+    padding: 25px;
+}
+
+.name-rule {
+    margin: auto;
+    border: 0;
+    clear:both;
+    display:block;
+    width: 98%;               
+    background-color:#3a3a3a;
+    height: 2px;
+}
+
+.job-title {
+    color: #240A5B;
+    font-family: Courier Prime;
+    font-size: 30px;
+    display: grid;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    margin: auto;
+    letter-spacing: 5px;
+}
+
+.job-description {
+    letter-spacing: 5px;
+    color: #240A5B;
+    font-family: Courier Prime;
+    display: grid;
+    margin: auto;
+    padding: 30px;
+}
+
+.contact-info {
+    font-size: 15px;
+    font-family: Courier Prime;
+    color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+    text-align: center;
+    display: grid;
+    background: linear-gradient(to bottom left, #6353C4, #4899D2);
+    grid-row-start: span 4;
+}
+
+.contact-header {
+    padding-top: 25px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.contact-rule {
+    margin: auto;
+    border: 0;
+    clear:both;
+    display:block;
+    width: 80%;               
+    background-color: white;
+    height: 1px;
+}
+
+.phone {
+    display: grid;
+    margin: auto;
+    padding-top: 10px;
+    width: 50%;
+}
+
+.pin {
+    display: grid;
+    margin: auto;
+    padding: 10px;
+    width: 30%;
+}
+
+.email {
+    letter-spacing: 1px;
+    display: grid;
+    margin: auto;
+    padding: 10px;
+    width: 27%;
+}
+
+.linkedin {
+    letter-spacing: 1px;
+    display: grid;
+    margin: auto;
+    padding: 10px;
+    width: 27%;
+}
+
+.bottom-text {
+    padding-bottom: 150px;
+}
+
+.expertise {
+    letter-spacing: 5px;
+    color: #240A5B;
+    font-family: Courier Prime;
+    display: grid;
+    padding: 30px;
+}
+
+.expertise-header {
+    font-size: large;
+    font-family: Roboto Mono;
+}
+
+.expertise-paragraph {
+    color: grey;
+}
+
+.expertise-rule {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 80%;               
+    background-color:#9c9c9c;
+    height: 2px;
+}
+
+.history {
+    letter-spacing: 1px;
+    font-family: Courier Prime;
+    display: grid;
+    padding: 30px;
+}
+
+.history-header {
+    color: #240A5B;
+    font-family: Roboto Mono;
+    font-size: large;
+    letter-spacing: 5px;
+}
+
+.history-subheader {
+    color: grey;
+    font-family: Roboto Mono;
+    font-size: 15px;
+}
+
+.history-paragraph {
+    color: grey;
+    letter-spacing: normal;
+    line-height: 25px;
+}
+
+.history-rule {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 80%;               
+    background-color:#9c9c9c;
+    height: 2px;
+}
+
+.history-2 {
+    letter-spacing: 1px;
+    font-family: Courier Prime;
+    display: grid;
+    padding: 30px;
+}
+
+.education {
+    letter-spacing: 1px;
+    font-family: Courier Prime;
+    display: grid;
+    padding: 30px;
+}
+
+.education-header{
+    color: #240A5B;
+    font-family: Roboto Mono;
+    font-size: large;
+    letter-spacing: 5px;
+}
+
+.education-rule{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 80%;               
+    background-color:#9c9c9c;
+    height: 2px;
+}
+
+.education-subheader {
+    color: grey;
+    font-family: Roboto Mono;
+    font-size: 15px;
+}
+
+.education-paragraph {
+    color: grey;
+    letter-spacing: normal;
+    line-height: 25px;
+}
