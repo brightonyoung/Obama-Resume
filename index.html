@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="index.js"></script>
+    <script src="resume-interactive.js"></script>
 </head>
 <body>
     <div class="grid-container">
         <div class="portrait-container">
-            <img class="portrait" src="./barack-obama.jpg">
+            <img src="./img/barack-obama.jpg" class="portrait" id="profilepic" onmouseover="ghostphoto()">
         </div>
-        <div class="name">
+        <div class="name" id="name">
             <h1>BARACK<br> OBAMA</h1>
             <hr class="name-rule">
         </div>
@@ -29,24 +32,24 @@
             <h4 class="contact-header">Contact<br> Info</h4 styles>
             <hr class="contact-rule">
                 <div class="phone">
-                    <img class="phone" src="./phone.png">
+                    <img class="phone" src="./img/phone.png">
                 </div>
                 <div>
                     <p>123-456-7890</p>
                 </div>
                 <div>
-                    <img class="pin" src="./pin.png">
+                    <img class="pin" src="./img/pin.png">
                     <p>123 Anywhere Street,</p>
                     <p>Any City, State</p>
                     <p>Country</p>
                 </div>
                 <div>
-                    <img class="email" src="./email.png">
+                    <img class="email" src="./img/email.png">
                     <p>hello@reallygreatsite.com</p>
                     <p>www.reallygreatsite.com</p>
                 </div>
                 <div>
-                    <img class="linkedin" src="./linkedin.png">
+                    <img class="linkedin" src="./img/linkedin.png">
                     <p class="bottom-text">LinkedIn: reallygreatsite</p>
                 </div>
         </section>
